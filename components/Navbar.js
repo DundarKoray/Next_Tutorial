@@ -6,9 +6,9 @@ const Navbar = () => {
             <div className="logo">
                 <h1>Ninjalist</h1>
             </div>
-            <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/ninjas">Ninja Listing</Link> 
+            <Link href="/" legacyBehavior><a>Home</a></Link>
+            <Link href="/about" legacyBehavior><a>About</a></Link>
+            <Link href="/ninjas" legacyBehavior><a>Ninja Listing</a></Link> 
         </nav>
      );
 }
