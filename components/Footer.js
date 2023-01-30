@@ -1,8 +1,8 @@
 const Footer = () => {
     return ( 
-        <div>
+        <footer>
             Copyright 2023 Ninjalist
-        </div>
+        </footer>
      );
 }
  
